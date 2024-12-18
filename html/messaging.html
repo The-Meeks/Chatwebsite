@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+
+<!-- Fixed Navigation Bar -->
+<header class="header">
+    <div class="logo">ChatPlatform</div>
+    
+    <div class="account-menu">
+        <img src="" alt="Account" id="account-icon">
+        <div class="dropdown-menu" id="dropdown-menu">
+            <ul>
+                <li><a href="account-settings.html">Account Settings</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="messaging-container">
+    <div class="left-column">
+        <div class="search">
+            <input type="text" placeholder="Search..." id="search">
+        </div>
+        <div class="online-users">
+            <h3>Online Users</h3>
+            <ul>
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+                <li>Mark Lee</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <div class="chat-header">
+            <h2>John Doe</h2>
+            <button class="add-media-btn">+</button>
+        </div>
+        <div class="chat-messages">
+            <div class="message">Hi, how are you?</div>
+            <div class="message incoming">I'm good, thanks for asking!</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Type a message..." id="message-input">
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
